@@ -169,7 +169,7 @@ class Decoder(nn.Module):
                 resnet_eps=1e-6,
                 resnet_act_fn=act_fn,
                 resnet_groups=norm_num_groups,
-                # attn_num_head_channels=None,
+                attn_num_head_channels=None,
                 temb_channels=None,
             )
             self.up_blocks.append(up_block)
